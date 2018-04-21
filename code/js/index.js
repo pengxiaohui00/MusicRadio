@@ -95,9 +95,9 @@ var Footer = {
         channels.unshift({
             channel_id:0,
             name: '我的最爱',
-            cover_small:'http://cloud.hunger-valley.com/17-10-24/1906806.jpg-small',
-            cover_middle:'http://cloud.hunger-valley.com/17-10-24/1906806.jpg-middle',
-            cover_big:'http://cloud.hunger-valley.com/17-10-24/1906806.jpg-big',
+            cover_small:'//cloud.hunger-valley.com/17-10-24/1906806.jpg-small',
+            cover_middle:'//cloud.hunger-valley.com/17-10-24/1906806.jpg-middle',
+            cover_big:'//cloud.hunger-valley.com/17-10-24/1906806.jpg-big',
         });
 
         channels.forEach(function(channel){
