@@ -1,7 +1,7 @@
 /**
  * Created by 小灰 on 2018/4/19.
  */
-var EventCenter={
+var EventCenter ={
     on: function (type,handler) {
         $(document).on(type,handler)
     },
@@ -133,7 +133,7 @@ var App={
         this.collections =this.loadFromLocal();
         this.bind();
 
-        EventCenter.fire('select-album',{
+        EventCenter.fire('select-albumn',{
             channelId:'0',
             channelName:'我的最爱'
         })
@@ -259,13 +259,13 @@ var App={
     },
 
     loadFromLocal: function () {
-        return JSON.parse(localStorage['collections']||{});
+        return JSON.parse(localStorage['collections']||'{}');
     },
 
     saveToLocal: function () {
         localStorage['collection']=JSON.stringify(this.collections);
     },
-    
+
     loadCollection: function () {
         var keyArray = Object.keys(this.collections);
         if(keyArray.length===0) return;
@@ -294,8 +294,7 @@ $.fn.boomText = function(type){
             clearInterval(clock)
         }
     }, 300)
-};
-
+}
 
 Footer.init();
 App.init();
