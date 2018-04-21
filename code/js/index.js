@@ -291,9 +291,9 @@ $.fn.boomText = function(type){
         $boomTexts.eq(index).addClass('animated ' + type)
         index++
         if(index >= $boomTexts.length){
-            clearInterval(clock)
-        }
-    }, 300)
+    clearInterval(clock)
+}
+}, 300)
 }
 
 Footer.init();
