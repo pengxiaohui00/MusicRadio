@@ -274,28 +274,28 @@ var App={
         this.play(this.collections[randomSid]);
     }
 };
-
-$.fn.boomText  = function (type) {
-    type = type ||'rollIn';
-    console.log(type);
+$.fn.boomText = function(type){
+    type = type || 'rollIn'
+    console.log(type)
     this.html(function(){
-        var arr=$(this).text()
-                       .split('').map(function (word) {
-                return '<span class="boomText">'+ word +'</span>'
-            });
-        return arr.join('');
-    });
+        var arr = $(this).text()
+            .split('').map(function(word){
+                return '<span class="boomText">'+ word + '</span>'
+            })
+        return arr.join('')
+    })
 
-    var index = 0;
-    var $boomTexts=$(this).find('span');
-    var clock =setInterval(function(){
-        $boomTexts.eq(index).addClass('animated'+ type);
-        index++;
+    var index = 0
+    var $boomTexts = $(this).find('span')
+    var clock = setInterval(function(){
+        $boomTexts.eq(index).addClass('animated ' + type)
+        index++
         if(index >= $boomTexts.length){
-            clearInterval(clock);
+            clearInterval(clock)
         }
-    },300)
+    }, 300)
 };
+
 
 Footer.init();
 App.init();
