@@ -1,12 +1,12 @@
 
-#项目标题：MusicRadio
+# 项目标题：MusicRadio
 
 http://js.jirengu.com/tejaw
 
 https://pengxiaohui00.github.io/MusicRadio/code/index.html
 
 
-##项目功能介绍：
+## 项目功能介绍：
 1.这是一个简单的音乐电台，拥有41种不同的音乐风格类型供你选择并随时切换。
 
 2.还可以选择你喜欢的音乐，并添加到我的最爱歌单中，并本保存到浏览器本地，下次登入一直保存你喜欢的歌曲，除非你主动删除。
@@ -17,7 +17,7 @@ https://pengxiaohui00.github.io/MusicRadio/code/index.html
 
 5.另外它还有满屏显示和响应式页面哦。
 
-##项目技术细节介绍：
+## 项目技术细节介绍：
 
 1.使用jQuery库来方便并大大的简化了代码。
 
@@ -44,6 +44,6 @@ https://pengxiaohui00.github.io/MusicRadio/code/index.html
 12.把你选中喜欢的歌曲，收集到你最爱的歌单上，通过localStorage存储到浏览器本地。
 
 
-##项目收获；熟悉了一个完整项目的思路和流程，并通过实现功能和测试功能debug，复习与总结相关知识点。
+## 项目收获；熟悉了一个完整项目的思路和流程，并通过实现功能和测试功能debug，复习与总结相关知识点。
 
-##技术栈关键字：jQuery、CSS3、响应式
+## 技术栈关键字：jQuery、CSS3、响应式
