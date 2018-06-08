@@ -1,7 +1,6 @@
 
 # 项目标题：MusicRadio
 
-http://js.jirengu.com/tejaw
 
 https://pengxiaohui00.github.io/MusicRadio/code/index.html
 
