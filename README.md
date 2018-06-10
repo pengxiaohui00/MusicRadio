@@ -16,6 +16,8 @@ https://pengxiaohui00.github.io/MusicRadio/code/index.html
 
 5.另外它还有满屏显示和响应式页面哦。
 
+## 技术栈关键字：jQuery、CSS3、响应式
+
 ## 项目技术细节介绍：
 
 1.使用jQuery库来方便并大大的简化了代码。
@@ -43,6 +45,5 @@ https://pengxiaohui00.github.io/MusicRadio/code/index.html
 12.把你选中喜欢的歌曲，收集到你最爱的歌单上，通过localStorage存储到浏览器本地。
 
 
-## 项目收获；熟悉了一个完整项目的思路和流程，并通过实现功能和测试功能debug，复习与总结相关知识点。
+项目收获；熟悉了一个完整项目的思路和流程，并通过实现功能和测试功能debug，复习与总结相关知识点。
 
-## 技术栈关键字：jQuery、CSS3、响应式
